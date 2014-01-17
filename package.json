@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-ejs",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "DocPad plugin that adds the ability to render EJS templates",
   "homepage": "https://github.com/miles-no/docpad-plugin-ejs",
   "keywords": [
@@ -27,6 +27,7 @@
   },
   "main": "./src/ejs.plugin.js",
   "dependencies": {
-    "ejs": "~0.8.5"
+    "ejs": "~0.8.5",
+    "extendonclass": "~1.0.0"
   }
 }

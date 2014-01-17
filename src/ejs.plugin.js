@@ -1,6 +1,7 @@
 var ejs = require('ejs');
 
 module.exports = function(BasePlugin) {
+    BasePlugin.extend = require('extendonclass').extendOnClass;
 
     return BasePlugin.extend({
         name: 'ejs',
